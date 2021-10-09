@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'Netflix Clone',
     description: "A sample clone of the dashboard of netflix using React and deployed on Firebase.",
-    image: '/images/netflixClone.jpg',
+    image: '/images/netflixClone.png',
     tags: ['React', 'Firebase'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/ram-netlfix-clone',
     visit: 'https://ram-netflix-clone.web.app/',
@@ -29,7 +29,7 @@ export const projects = [
   {
     title: 'E-Commerce App',
     description: "End to end e-commerce web application created using React, Material UI, Commerce.js and Stripe.",
-    image: '/images/srmECommerce.jpg',
+    image: '/images/srmECommerce.png',
     tags: ['React'],
     source: 'https://github.com/msram1002/react-ecommerce',
     visit: 'https://ram-srmecommerce.netlify.app/',
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: 'SRM Fitness',
     description: 'A fictional fitness website utilizing GreenSock for the animation part.',
-    image: '/images/srmFitness.jpg',
+    image: '/images/srmFitness.png',
     tags: ['JavaScript'],
     source: 'https://github.com/msram1002/srmFitness',
     visit: 'https://ram-srmfitness.netlify.app/',
@@ -47,7 +47,7 @@ export const projects = [
   {
     title: 'Budget Calculator',
     description: 'Creating a budget just got easier! Use this budget calculator and take control of your spending.',
-    image: '/images/budgetCalc.jpg',
+    image: '/images/budgetCalc.png',
     tags: ['Angular'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/budget-calc-app',
     visit: 'https://ram-budget-calculator.web.app/',
@@ -56,11 +56,11 @@ export const projects = [
   {
     title: 'Weather App - PWA',
     description: 'A Weather application developed as a Progressive Web App (PWA) and audited by Google Lighthouse.',
-    image: '/images/weatherPwa.jpg',
+    image: '/images/weatherPwa.png',
     tags: ['React'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/pwa-react',
     visit: 'https://ram-pwa-weatherapp.netlify.app/',
-    id: 7,
+    id: 6,
   },
 ];
 

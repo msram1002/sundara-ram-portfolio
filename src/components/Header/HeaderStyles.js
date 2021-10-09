@@ -21,30 +21,36 @@ export const Container = styled.div`
 export const Span = styled.div`
   font-size: 2rem;
 `;
+
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
   flex-direction: row;
   align-content: center;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 1 / 1 / 2 / 3;
   }
 `;
+
 export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
   margin-top: 0.9rem;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
+
 export const Div3 = styled.div`
   grid-area: 1 / 5 / 2 / 6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin-top: 0.5rem;
+
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
@@ -57,24 +63,25 @@ export const NavLink = styled.a`
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
+
   &:hover {
     color: #fff;
     opacity: 1;
     cursor: pointer;
   }
+
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.5rem;
   }
 `;
 
-/// DropDown Contact
+// DropDown Contact
 export const ContactDropDown = styled.button`
   border: none;
   display: flex;
   position: relative;
   background: none;
   font-size: 1.7rem;
-
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   cursor: pointer;
@@ -83,6 +90,7 @@ export const ContactDropDown = styled.button`
   &:focus {
     outline: none;
   }
+
   &:hover {
     color: #fff;
   }
@@ -90,6 +98,7 @@ export const ContactDropDown = styled.button`
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: 0.4rem 0;
   }
+  
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 0;
   }
@@ -113,18 +122,17 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
   }
 `;
 
-
 // Social Icons 
 
 export const SocialIcons = styled.a`
-transition: 0.3s ease;
-color: white;
-border-radius: 50px;
+  transition: 0.3s ease;
+  color: white;
+  border-radius: 50px;
   padding: 8px;
-&:hover {
+
+  &:hover {
     background-color: #212d45;
     transform: scale(1.2);
     cursor: pointer;
-    
   }
-`
+`;
