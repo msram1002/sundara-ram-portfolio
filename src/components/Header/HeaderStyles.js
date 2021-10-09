@@ -17,6 +17,10 @@ export const Container = styled.div`
     grid-row-gap: 0.5rem;
   }
 `;
+
+export const Span = styled.div`
+  font-size: 2rem;
+`;
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 2 / 2;
   display: flex;
@@ -30,6 +34,7 @@ export const Div2 = styled.div`
   grid-area: 1 / 2 / 2 / 4;
   display: flex;
   justify-content: space-around;
+  margin-top: 0.9rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
@@ -39,6 +44,7 @@ export const Div3 = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 0.5rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
     grid-area: 1 / 4 / 2 / 6;
@@ -47,7 +53,7 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 2rem;
+  font-size: 1.8rem;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
   transition: 0.4s ease;
