@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
-import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
+import { Section, SectionDivider, SectionText, SectionTitle, SectionSubText } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
@@ -43,9 +43,21 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <div>
-      Timeline
-    </div>
+    <Section nopadding id="about">
+      <SectionDivider divider colorAlt/>
+        <SectionTitle>
+          About Me
+      </SectionTitle>
+      <SectionSubText>
+        I hold a Master of Science Degree (Major in Electrical Engineering and Minor in Computer Science) from West Virgina University, Morgantown.
+      </SectionSubText>
+      <SectionSubText>
+        While I was studying to obtain the specialist academic qualification, I held an Graduate Teaching Assistant (GTA) postion where I developed a Graphical User Interface (GUI) tool. Over the last five years, gained experience in conceptualizing and development of elegant and user friendly websites, with a strong ability to implement mock ups and understanding of delightful user experience design. Highly adaptable, flexible and a proven team player. 
+      </SectionSubText>
+      <SectionSubText>
+        I'm open to job opportunties, with my resume available <a href="mailto:matta.sundar88@gmail.com">on request</a>.
+      </SectionSubText>
+    </Section>
   );
 };
 

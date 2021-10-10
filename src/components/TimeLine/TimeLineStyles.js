@@ -1,5 +1,4 @@
-
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
@@ -11,17 +10,18 @@ export const CarouselContainer = styled.ul`
   /* overflow-x: hidden; */
 
   margin-left: 32px;
+
   &:first-of-type{
     margin-left: 0px;
   }
 
   margin-bottom: 80px;
 
-  //remove scrollbar
+  // remove scrollbar
   scrollbar-width: none;  
-   &::-webkit-scrollbar {
-     display: none;
-   }
+  &::-webkit-scrollbar {
+    display: none;
+  }
 
   @media ${props => props.theme.breakpoints.sm} {
     overflow-x: scroll;
@@ -31,13 +31,14 @@ export const CarouselContainer = styled.ul`
     justify-content: initial;
     margin-bottom: 8px;
   }
-`
+`;
+
 export const CarouselMobileScrollNode = styled.div`
   @media ${props => props.theme.breakpoints.sm} {
     display: flex;
     min-width: ${({ final }) => final ? `120%;` : `min-content`}
   }
-`
+`;
 
 export const CarouselItem = styled.div`
   background: #0F1624;
@@ -62,7 +63,7 @@ export const CarouselItem = styled.div`
     
     ${(props) => props.active === props.index ? `opacity: 1` : `opacity: 0.5`}; 
   }
-`
+`;
 
 export const CarouselItemTitle = styled.h4`
   font-weight: bold;
@@ -70,7 +71,9 @@ export const CarouselItemTitle = styled.h4`
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
+
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
+
   background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -86,7 +89,8 @@ export const CarouselItemTitle = styled.h4`
     font-size: 16px;
     line-height: 24px;
   }
-`
+`;
+
 export const CarouselItemImg = styled.svg`
   margin-left: 21px;
   -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1), rgba(0,0,0,0));
@@ -97,7 +101,7 @@ export const CarouselItemImg = styled.svg`
     margin-left: 16px;
     overflow: visible;
   }
-`
+`;
 
 export const CarouselItemText = styled.p`
   font-size: 14px;
@@ -116,7 +120,8 @@ export const CarouselItemText = styled.p`
     line-height: 16px;
     padding-right: 0;
   }
-`
+`;
+
 export const CarouselButtons = styled.div`
   width: 288px;
 
@@ -128,7 +133,7 @@ export const CarouselButtons = styled.div`
     visibility: visible;
     margin-bottom: 48px;
   }
-`
+`;
 
 export const CarouselButton = styled.button`
   box-sizing: border-box;
@@ -143,7 +148,7 @@ export const CarouselButton = styled.button`
   &:focus {
     outline: none;
   }
-`
+`;
 
 export const CarouselButtonDot = styled.div`
   background-color: white;
@@ -151,4 +156,12 @@ export const CarouselButtonDot = styled.div`
   margin: auto;
   width: 3px;
   height: 3px;
-`
+
+  max-width: 900px;
+    font-size: 2rem;
+    line-height: 25px;
+    font-weight: 300;
+    padding-bottom: 3.6rem;
+    color: rgba(255,255,255,0.5);
+    text-align: justify
+`;

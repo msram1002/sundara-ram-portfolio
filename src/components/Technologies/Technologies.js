@@ -6,8 +6,8 @@ import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './Techn
 
 const Technologies = () =>  (
   <Section nopadding id="tech">
-    <SectionDivider />
-    <SectionTitle main>
+    <SectionDivider divider colorAlt/>
+    <SectionTitle>
       Technologies
     </SectionTitle>
     <List>
