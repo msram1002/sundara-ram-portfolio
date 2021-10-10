@@ -6,9 +6,16 @@ import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTi
 
 const Footer = () => {
   return (
-    <div>
-      Footer
-    </div>
+    <FooterWrapper>
+      <SocialContainer>
+        <Slogan>
+          Everybody should learn how to code, because it teaches you how to think - Steve Jobs
+        </Slogan>
+      </SocialContainer>
+      <LinkTitle>
+        @ Sundara Ram Matta 2021
+      </LinkTitle>
+    </FooterWrapper>
   );
 };
 

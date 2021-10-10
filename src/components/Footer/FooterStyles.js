@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const FooterWrapper = styled.section`
 	width: calc(100vw - 96px);
@@ -64,8 +64,8 @@ export const CompanyContainer = styled.div`
 	align-items:baseline;
 	flex-wrap: wrap;
 	margin-right: auto;
+	margin-top: 3rem;
 	
-
 	@media ${props => props.theme.breakpoints.md} {
 		flex-direction: column;
 		align-items: baseline;
@@ -83,9 +83,8 @@ export const Slogan = styled.p`
 	color: rgba(255, 255, 255, 0.5);
 	min-width: 280px;
 	letter-spacing: 0.02em;
-	font-size: 18px;
-	line-height: 30px;
-	padding: 1rem;
+	font-size: 20px;
+	padding: 1rem 0 1.25rem 0;
 
 	@media ${props => props.theme.breakpoints.md}{
 		font-size: 16px;
@@ -97,11 +96,21 @@ export const Slogan = styled.p`
 		font-size: 14px;
 		min-width: 100px;
 	}
+
+	&:before, &:after {
+		content: "''";
+		width: 3rem;
+		height: 2rem;
+		font: 6rem/1.08em 'PT Sans', sans-serif;
+		color: #666;
+	}
 `;
 
 export const SocialContainer = styled.div`
 	display: flex;
   align-items: center;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 
 	@media ${props => props.theme.breakpoints.md}{
 		justify-content: center;
@@ -111,7 +120,6 @@ export const SocialContainer = styled.div`
 `;
 
 export const LinkList = styled.ul`
-	border-top: 1px solid rgba(255, 255, 255, 0.1);
   display: grid;
 	grid-template-columns: repeat(3, minmax(85px, 220px));
 	gap: 40px;
@@ -144,11 +152,12 @@ export const LinkColumn = styled.div`
 export const LinkTitle = styled.h4`
 	font-style: normal;
 	font-weight: 600;
-	font-size: 12px;
+	font-size: 1.25rem;
 	line-height: 24px;
 	text-transform: uppercase;
 	color: rgba(255, 255, 255, 0.4);
-	margin-bottom: 16px;
+	margin-top: 8rem;
+	text-align: center;
 
 	@media ${props => props.theme.breakpoints.sm} {
 		font-size: 10px;
