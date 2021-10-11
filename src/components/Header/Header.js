@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import { AiFillGithub, AiFillInstagram, AiFillLinkedin, AiTwotoneMail } from 'react-icons/ai';
 import { DiSmashingMagazine } from 'react-icons/di';
-
+import { HiMail } from 'react-icons/hi';
 import { Container, Span, Div1, Div2, Div3, NavLink, SocialIcons } from './HeaderStyles';
 
 const Header = () =>  (
@@ -37,8 +37,18 @@ const Header = () =>  (
           </NavLink>
         </Link>
       </li>
+      <li>
+        <Link href="#contact">
+          <NavLink>
+            Contact
+          </NavLink>
+        </Link>
+      </li>
     </Div2>
     <Div3>
+      <SocialIcons href="mailto:matta.sundar88@gmail.com">
+        <HiMail size="3rem"/>
+      </SocialIcons>
       <SocialIcons href="https://github.com/msram1002" target="_blank"
         rel="noopener noreferrer">
         <AiFillGithub size="3rem"/>

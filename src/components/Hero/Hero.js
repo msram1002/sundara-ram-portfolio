@@ -10,7 +10,7 @@ const Hero = () => (
         Hello, I'm Sundara Ram
       </SectionTitle>
       <SectionText>
-      I am a web application developer building out immersive and beautiful applications and I find happiness in being a better me today than the me yesterday.
+        I am a web application developer building out immersive and beautiful applications and I find happiness in being a better me today than the me yesterday. Let's start scrolling and learn more about me.
       </SectionText>
       {/* <Button alt>
         Scroll Down
