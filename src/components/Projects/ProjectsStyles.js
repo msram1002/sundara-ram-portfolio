@@ -46,7 +46,7 @@ export const HeaderThree = styled.h3 `
 `;
 
 export const Hr = styled.hr `
-  width: 50px;
+  width: 75px;
   height: 3px;
   margin: 20px auto;
   border: 0;
@@ -100,7 +100,7 @@ export const ExternalLinks = styled.a `
 
 export const TagList = styled.ul `
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 2rem;
 `;
 

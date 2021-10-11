@@ -12,7 +12,7 @@ export const Section = styled.section`
   grid-template-columns: 1fr 1fr;
 
   @media ${(props) => props.theme.breakpoints.md} {
-    padding: 24px 48px 0;
+    // padding: 24px 48px 0;
     flex-direction: column;
   }
 
@@ -104,6 +104,7 @@ export const SectionSubText = styled.p`
   font-size: 18px;
   line-height: 32px;
   color: rgba(255, 255, 255, 0.75);
+  margin-top: ${(props) => props.top ? '3rem' : 'initial'};
   padding-bottom: 3.6rem;
   text-align: justify;
 

@@ -55,7 +55,7 @@ const Timeline = () => {
         While I was studying to obtain the specialist academic qualification, I held an Graduate Teaching Assistant (GTA) postion where I developed a Graphical User Interface (GUI) tool. Over the last five years, gained experience in conceptualizing and development of elegant and user friendly websites, with a strong ability to implement mock ups and understanding of delightful user experience design. Highly adaptable, flexible and a proven team player. 
       </SectionSubText>
       <SectionSubText>
-        I'm open to job opportunties, with my resume available <a href="mailto:matta.sundar88@gmail.com">on request</a>.
+        While I am not coding or pushing pixels, you'll find me in the gym or pursuing my papercraft hobby or watching documentaries.
       </SectionSubText>
     </Section>
   );

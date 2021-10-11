@@ -21,6 +21,9 @@ export const LeftSection = styled.div`
 export const DownArrow = styled.img`
   height: 4.5rem;
   overflow-x: hidden;
+  position: absolute;
+  right: 50%;
+  margin-top: 5rem;
   animation: animateDown infinite 1.5s;
 
   @keyframes animateDown {
