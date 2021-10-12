@@ -30,7 +30,7 @@ export const DownArrow = styled.img`
   height: 3rem;
   overflow-x: hidden;
   position: absolute;
-  right: 53%;
+  right: 53.2%;
   margin-top: 9rem;
   animation: animateDown infinite 1.5s;
 
