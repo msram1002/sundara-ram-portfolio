@@ -1,8 +1,8 @@
 export default {
   // Fonts
   fonts: {
-    title: "Space Grotesk, sans-serif",
-    main: "Space Grotesk, sans-serif"
+    title: "'Lato', sans-serif",
+    main: "'Lato', sans-serif"
   },
 
   // Colors for layout

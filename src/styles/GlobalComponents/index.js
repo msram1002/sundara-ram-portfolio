@@ -99,10 +99,10 @@ export const SectionDivider = styled.div`
 `;
 
 export const SectionSubText = styled.p`
-  max-width: 800px;
+  max-width: 875px;
   font-weight: 300;
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 1.8rem;
+  line-height: 3rem;
   color: rgba(255, 255, 255, 0.75);
   margin-top: ${(props) => props.top ? '3rem' : 'initial'};
   padding-bottom: 3.6rem;

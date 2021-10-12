@@ -43,12 +43,12 @@ const Timeline = () => {
   // }, []);
 
   return (
-    <Section nopadding id="about">
+    <Section id="about">
       <SectionDivider divider colorAlt/>
         <SectionTitle>
           About Me
       </SectionTitle>
-      <SectionSubText>
+      <SectionSubText style={{marginTop: "3rem"}}>
         I hold a Master of Science Degree (Major in Electrical Engineering and Minor in Computer Science) from West Virgina University, Morgantown.
       </SectionSubText>
       <SectionSubText>

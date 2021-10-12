@@ -18,12 +18,20 @@ export const LeftSection = styled.div`
   }
 `;
 
-export const DownArrow = styled.img`
-  height: 4.5rem;
+export const DownMouse = styled.img`
+  height: 7rem;
   overflow-x: hidden;
   position: absolute;
-  right: 50%;
-  margin-top: 5rem;
+  right: 50.5%;
+  margin-top: 4rem;
+`;
+
+export const DownArrow = styled.img`
+  height: 3rem;
+  overflow-x: hidden;
+  position: absolute;
+  right: 53%;
+  margin-top: 9rem;
   animation: animateDown infinite 1.5s;
 
   @keyframes animateDown {

@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { Section, SectionDivider, SectionTitle, SectionSubText } from '../../styles/GlobalComponents';
+import { Section, SectionText, SectionDivider, SectionTitle, SectionSubText } from '../../styles/GlobalComponents';
 import { MdEmail } from 'react-icons/md';
 import { Form, Input, Textarea, GridContainer } from './ContactStyles';
 import Button from '../../styles/GlobalComponents/Button';
@@ -32,28 +32,23 @@ const Contact = () => {
             <MdEmail size="2rem"/>
             <ListContainer>
               <ListTitle>Email</ListTitle>
-              <ListParagraph>
-                matta.sundar88@gmail.com
-              </ListParagraph>
-              
+              <ListParagraph>matta.sundar88@gmail.com</ListParagraph>
             </ListContainer>
           </ListItem>
         </List>
         <div>
-          <SectionSubText>Would love to get in touch. <br/>Send me a message.</SectionSubText>
+          <SectionText>Would love to get in touch. <br/>Send me a message.</SectionText>
           <Form ref={form} onSubmit={sendEmail}>
             {/* <label>Subject</label> */}
-            <Input type="text" name="user_subject" placeholder="Subject"  />
+            <Input type="text" name="user_subject" placeholder="Subject" required />
             {/* <label>Name</label> */}
-            <Input type="text" name="user_name" placeholder="Enter your name"  />
+            <Input type="text" name="user_name" placeholder="Enter your name" required />
             {/* <label>Email</label> */}
-            <Input type="email" name="user_email" placeholder="Enter a valid email address"  />
+            <Input type="email" name="user_email" placeholder="Enter a valid email address" required />
             {/* <label>Message</label> */}
-            <Textarea name="message" placeholder="Enter your message" />
+            <Textarea name="message" placeholder="Enter your message" required />
             {/* <Input /> */}
-            <Button type="submit" value="Send" alt>
-              Send
-            </Button>
+            <Button type="submit" value="Send" alt>Send</Button>
             <SectionSubText top>{done && "Thank you for the email!"}</SectionSubText>
           </Form>
         </div>

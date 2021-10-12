@@ -59,13 +59,14 @@ export const Div3 = styled.div`
 
 // Navigation Links
 export const NavLink = styled.a`
-  font-size: 1.8rem;
-  line-height: 32px;
+  font-size: 1.9rem;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
   color: rgba(255, 255, 255, 0.75);
-  transition: 0.4s ease;
+  transition: 0.3s ease;
 
   &:hover {
-    color: #fff;
+    color: #9cc9e3;
     opacity: 1;
     cursor: pointer;
   }
@@ -125,14 +126,11 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
 // Social Icons 
 
 export const SocialIcons = styled.a`
-  transition: 0.3s ease;
+  transition: transform 0.3s ease;
   color: white;
-  border-radius: 50px;
-  padding: 8px;
 
   &:hover {
-    background-color: #212d45;
-    transform: scale(1.2);
+    transform: scale(1.4);
     cursor: pointer;
   }
 `;

@@ -63,8 +63,8 @@ export const ListContainer = styled.div`
 
 export const ListTitle = styled.h4`
   font-weight: 700;
-  font-size: 28px;
-  line-height: 32px;
+  font-size: 2.5rem;
+  line-height: 2rem;
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-bottom: 8px;
@@ -83,8 +83,9 @@ export const ListTitle = styled.h4`
 `;
 
 export const ListParagraph = styled.p`
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.5rem;
   color: rgba(255, 255, 255, 0.75);
 
   @media ${props => props.theme.breakpoints.md} {

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection, DownArrow } from './HeroStyles';
+import { LeftSection, DownArrow, DownMouse } from './HeroStyles';
 
 const Hero = () => (
   <Section row nopadding>
@@ -15,6 +15,8 @@ const Hero = () => (
       {/* <Button alt>
         Scroll Down
       </Button> */}
+      <DownMouse src="/images/mouse_scroll_icon.svg">
+      </DownMouse>
       <DownArrow src="/images/down-arrow.svg">
       </DownArrow>
     </LeftSection>

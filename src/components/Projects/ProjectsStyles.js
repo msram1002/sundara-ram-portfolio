@@ -67,7 +67,8 @@ export const CardInfo = styled.p `
   width: 100%;
   padding: 0 2rem;
   color: #e4e6e7;
-  font-size: 1.8rem;
+  font-size: 1.7rem;
+  font-weight: 300;
   line-height: 2rem;
   margin-bottom: 2rem;
   height: 75px;
