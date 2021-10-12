@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'Host Your Site',
+    description: "A fictional hosting website created using modern CSS techniques like CSS Grid, Flexbox, psuedo selectors and more. Deployed on Netlify with its inbuilt form functionality.",
+    image: '/images/hostYourSite.png',
+    tags: ['Html', 'Css'],
+    source: 'https://github.com/msram1002/hostYourSite',
+    visit: 'https://srm-host-your-site.netlify.app/',
+    id: 1,
+  },
+  {
     title: 'Travel Page',
     description: "A fictional travel page with a background video. Glassmorphism was used to style the page to create a frosted glass aesthetic.",
     image: '/images/travelVideo.png',
     tags: ['Html', 'Css'],
     source: 'https://github.com/msram1002/responsive-glassmorphism',
     visit: 'https://ram-travel-landingpage.netlify.app/',
-    id: 0,
+    id: 2,
   },
   {
     title: 'Furniture Store',
@@ -15,7 +24,7 @@ export const projects = [
     tags: ['Html', 'Css', 'JavaScript'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/comfyandCozyHouseProj',
     visit: 'https://ram-furniture-collection.netlify.app/',
-    id: 1,
+    id: 3,
   },
   {
     title: 'Netflix Clone',
@@ -24,7 +33,7 @@ export const projects = [
     tags: ['React', 'Firebase'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/ram-netlfix-clone',
     visit: 'https://ram-netflix-clone.web.app/',
-    id: 2,
+    id: 4,
   },
   {
     title: 'E-Commerce App',
@@ -33,7 +42,7 @@ export const projects = [
     tags: ['React', 'Material UI', 'Commerce JS', 'Stripe'],
     source: 'https://github.com/msram1002/react-ecommerce',
     visit: 'https://ram-srmecommerce.netlify.app/',
-    id: 3,
+    id: 5,
   },
   {
     title: 'SRM Fitness',
@@ -42,7 +51,7 @@ export const projects = [
     tags: ['Html', 'Css', 'JavaScript', 'GreenSock'],
     source: 'https://github.com/msram1002/srmFitness',
     visit: 'https://ram-srmfitness.netlify.app/',
-    id: 4,
+    id: 6,
   },
   {
     title: 'Budget Calculator',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['Angular', 'Firebase'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/budget-calc-app',
     visit: 'https://ram-budget-calculator.web.app/',
-    id: 5,
+    id: 7,
   },
   {
     title: 'Weather App',
@@ -60,7 +69,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/pwa-react',
     visit: 'https://ram-pwa-weatherapp.netlify.app/',
-    id: 6,
+    id: 8,
   },
 ];
 
