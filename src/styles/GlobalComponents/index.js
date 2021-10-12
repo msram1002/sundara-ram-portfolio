@@ -61,7 +61,7 @@ export const SectionText = styled.p`
   font-weight: 300;
   padding-bottom: 3rem;
   text-align: justify;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.85);
 
   @media ${(props) => props.theme.breakpoints.md} {
     max-width: 670px;
@@ -103,7 +103,7 @@ export const SectionSubText = styled.p`
   font-weight: 300;
   font-size: 1.8rem;
   line-height: 3rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.65);
   margin-top: ${(props) => props.top ? '3rem' : 'initial'};
   padding-bottom: 3.6rem;
   text-align: justify;

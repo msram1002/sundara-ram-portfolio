@@ -66,7 +66,7 @@ export const ListTitle = styled.h4`
   font-size: 2.5rem;
   line-height: 2rem;
   letter-spacing: 0.02em;
-  color: #FFFFFF;
+  color: rgba(255, 255, 255, 0.85);
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -86,7 +86,7 @@ export const ListParagraph = styled.p`
   font-size: 1.7rem;
   font-weight: 300;
   line-height: 2.5rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.65);
 
   @media ${props => props.theme.breakpoints.md} {
     font-size: 16px;
