@@ -4,12 +4,12 @@ export const Img = styled.img `
   width: 100%;
   overflow: hidden;
   border-radius: 1rem 1rem 0 0;
-  height: 30vh;
+  height: 40vh;
 `;
 
 export const GridContainer = styled.section `
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   padding: 3rem;
   place-items: center;
   column-gap: 2rem;
@@ -25,7 +25,7 @@ export const GridContainer = styled.section `
 export const BlogCard = styled.div `
   border-radius: 2rem;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  width: 375px;
+  width: 310px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -42,7 +42,7 @@ export const HeaderThree = styled.h3 `
   letter-spacing: 2px;
   color: #9cc9e3;
   padding: 2rem 0.5rem 0.5rem 0.5rem;
-  font-size: ${(props) => props.title ? '3rem' : '2rem'};
+  font-size: ${(props) => props.title ? '2.5rem' : '1.75rem'};
 `;
 
 export const Hr = styled.hr `
@@ -67,11 +67,11 @@ export const CardInfo = styled.p `
   width: 100%;
   padding: 0 2rem;
   color: rgba(255, 255, 255, 0.65);
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   font-weight: 300;
-  line-height: 2rem;
+  line-height: 1.75rem;
   margin-bottom: 2rem;
-  height: 75px;
+  height: 100px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: .3rem;
   }

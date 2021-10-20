@@ -18,13 +18,22 @@ export const projects = [
     id: 2,
   },
   {
+    title: 'SRM Beats',
+    description: "A responsive headphones landing page with dark interface and animated using scroll reveal. Developed first with the Mobile First methodology, then for desktop.",
+    image: '/images/srmHeadPhones.png',
+    tags: ['Html', 'Css', 'JavaScript'],
+    source: 'https://github.com/msram1002/responsive-landingpage-headphones',
+    visit: 'https://srm-headphones.netlify.app',
+    id: 3,
+  },
+  {
     title: 'Furniture Store',
     description:"A fictional furniture store developed using JavaScript.",
     image: '/images/jsShopping.png',
     tags: ['Html', 'Css', 'JavaScript'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/comfyandCozyHouseProj',
     visit: 'https://ram-furniture-collection.netlify.app/',
-    id: 3,
+    id: 4,
   },
   {
     title: 'Netflix Clone',
@@ -33,16 +42,16 @@ export const projects = [
     tags: ['React', 'Firebase'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/ram-netlfix-clone',
     visit: 'https://ram-netflix-clone.web.app/',
-    id: 4,
+    id: 5,
   },
   {
     title: 'E-Commerce App',
     description: "End to end e-commerce web application created using React, Material UI, Commerce.js and Stripe.",
     image: '/images/srmECommerce.png',
-    tags: ['React', 'Material UI', 'Commerce JS', 'Stripe'],
+    tags: ['React', 'CommerceJS', 'Stripe'],
     source: 'https://github.com/msram1002/react-ecommerce',
     visit: 'https://ram-srmecommerce.netlify.app/',
-    id: 5,
+    id: 6,
   },
   {
     title: 'SRM Fitness',
@@ -51,7 +60,7 @@ export const projects = [
     tags: ['Html', 'Css', 'JavaScript', 'GreenSock'],
     source: 'https://github.com/msram1002/srmFitness',
     visit: 'https://ram-srmfitness.netlify.app/',
-    id: 6,
+    id: 7,
   },
   {
     title: 'Budget Calculator',
@@ -60,7 +69,7 @@ export const projects = [
     tags: ['Angular', 'Firebase'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/budget-calc-app',
     visit: 'https://ram-budget-calculator.web.app/',
-    id: 7,
+    id: 8,
   },
   {
     title: 'Weather App',
@@ -69,7 +78,7 @@ export const projects = [
     tags: ['React'],
     source: 'https://github.com/msram1002/myProjects/tree/gh-pages/proj/pwa-react',
     visit: 'https://ram-pwa-weatherapp.netlify.app/',
-    id: 8,
+    id: 9,
   },
 ];
 
