@@ -18,7 +18,7 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'SRM Beats',
+    title: 'HeadPhones Page',
     description: "A responsive headphones landing page with dark interface and animated using scroll reveal. Developed first with the Mobile First methodology, then for desktop.",
     image: '/images/srmHeadPhones.png',
     tags: ['Html', 'Css', 'JavaScript'],
@@ -54,7 +54,7 @@ export const projects = [
     id: 6,
   },
   {
-    title: 'SRM Fitness',
+    title: 'Fitness Site',
     description: 'A fictional fitness website utilizing GreenSock for the animation part.',
     image: '/images/srmFitness.png',
     tags: ['Html', 'Css', 'JavaScript', 'GreenSock'],

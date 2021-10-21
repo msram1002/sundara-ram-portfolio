@@ -4,13 +4,13 @@ export const Img = styled.img `
   width: 100%;
   overflow: hidden;
   border-radius: 1rem 1rem 0 0;
-  height: 40vh;
+  height: 35vh;
 `;
 
 export const GridContainer = styled.section `
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  padding: 3rem;
+  padding: 3rem 0 3rem;
   place-items: center;
   column-gap: 2rem;
   row-gap: 3rem;
@@ -23,9 +23,9 @@ export const GridContainer = styled.section `
 `;
 
 export const BlogCard = styled.div `
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
-  width: 310px;
+  width: 325px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
   }
@@ -38,19 +38,20 @@ export const TitleContent = styled.div `
 `;
 
 export const HeaderThree = styled.h3 `
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: 2rem 0.5rem 0.5rem 0.5rem;
+  padding: 1.75rem 0.5rem 0.5rem 0.5rem;
   font-size: ${(props) => props.title ? '2.5rem' : '1.75rem'};
 `;
 
 export const Hr = styled.hr `
-  width: 75px;
+  width: 80px;
   height: 3px;
   margin: 20px auto;
-  border: 0;
-  background: #d0bb57;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(270deg,#F46737 0%,#945DD6 100%);
 `;
 
 export const Intro = styled.div `
@@ -69,9 +70,8 @@ export const CardInfo = styled.p `
   color: rgba(255, 255, 255, 0.65);
   font-size: 1.5rem;
   font-weight: 300;
-  line-height: 1.75rem;
-  margin-bottom: 2rem;
-  height: 100px;
+  margin-bottom: 2em;
+  height: 85px;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding: .3rem;
   }
@@ -82,7 +82,7 @@ export const UtilityList = styled.ul `
   padding: 0;
   display: flex;
   justify-content: space-around;
-  margin: 2.5rem 0;
+  margin: 1rem 0 2rem;
 `;
 
 export const ExternalLinks = styled.a `
@@ -102,7 +102,7 @@ export const ExternalLinks = styled.a `
 export const TagList = styled.ul `
   display: flex;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 1rem 0 2rem;
 `;
 
 export const Tag = styled.li `

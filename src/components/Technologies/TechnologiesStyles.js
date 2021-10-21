@@ -62,7 +62,7 @@ export const ListContainer = styled.div`
 `;
 
 export const ListTitle = styled.h4`
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2.5rem;
   line-height: 2rem;
   letter-spacing: 0.02em;
