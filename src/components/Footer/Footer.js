@@ -13,7 +13,7 @@ const Footer = () => {
         </Slogan>
       </SocialContainer>
       <LinkTitle>
-        @ Sundara Ram Matta 2021
+        @ Sundara Ram Matta 2022
       </LinkTitle>
     </FooterWrapper>
   );
